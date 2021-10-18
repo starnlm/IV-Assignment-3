@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@800&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.navigation{
+    top: 0px;
+    position: absolute;
+    display: flex;
+    /* background: #e1a0a0; */
+    background: #45818e;
+    align-items: center;
+    padding: 0px;
+    height: 55px;
+    width: 100%;
+    left:0px;
+    right: 0px;
+}
+
+.logo{
+    padding-left: 5%;
+}
+
+nav{
+    margin: 0 auto;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: #eeeeee;
+}
+.information, .why-visit-melb {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 80vh;
+    background: #eeeeee;
+}
+
+ul{
+    list-style-type: none;    
+}
+
+.navigation ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.nav-links{
+    height: 55px;
+    /* background: #e1a0a0; */
+    background: #45818e;
+    /* background: white; */
+    width: 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s ease 0s;
+}
+
+li p:hover{
+    background:white;
+    /* color: #e1a0a0; */
+    color: #45818e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/melbourne1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+/* .melb-main{
+    padding: 100px;
+} */
+
+.melb-heading{
+    color: white;
+    font-size: 6em;
+    font-family: 'Playfair Display' ;
+}
+
+.about{
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 0px;
+}
+
+.about-melb-text span{
+    font-weight: bold;
+}
+
+.nav-boxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-links{
+    cursor: pointer;
+    display: flex;
+    width: 300px;
+    height: 260px;
+    margin: 40px;
+    /* padding: 20px 0px; */
+    text-align: center;
+    align-items: center;
+    /* background-position: center; */
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.page-links:hover .nav-heading{
+    height: 100%;
+}
+
+.nav-heading{
+    background: rgba(0,0,0,.6);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    transition: all 0.25s ease 0.05s;
+}
+
+.link-spanner{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;  
+}
+
+.poi{
+    background-image: url(../images/melb-poi.jpg);
+}
+
+.bnb{
+    background-image: url(../images/melb-bnb.jpg);
+}
+.commute{
+    background-image: url(../images/melb-commute.jpg);
+}
+
+.why-visit-melb h1{
+    margin: 0px;
+    text-align: center;
+}
+
+.visit-melb-text{
+    width: 60%;
+    margin: 70px auto;
+}
+
+.team{
+    background: #45818e;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.members{
+    color: white;
+    margin: 0px;
+    margin-right: 50px;
+}
